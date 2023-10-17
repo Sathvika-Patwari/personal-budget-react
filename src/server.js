@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = 3004;
-const BudgetDataJSON = require('./budgetData.json');
+const BudgetDataJSON = require('../public/budgetData.json');
 
 app.use('/heyo',express.static('public'));
 
